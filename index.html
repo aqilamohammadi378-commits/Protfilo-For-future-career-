@@ -1,40 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Your Name - Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lisa Hamhamedy | Portfolio.</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Future Career Portfolio</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a short introduction about yourself, your interests, and career ambitions.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project 1:</strong> Description of project 1.</li>
-            <li><strong>Project 2:</strong> Description of project 2.</li>
-            <!-- Add more projects as needed -->
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#home" class="logo">Protfolio.</a>
+    <ul>
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1><span>Aqila Mohammadi</span></h1>
+      <h3>Hello, I’m a <span class="typing"></span></h3>
+      <p>
+        A passionate computer science student at American University of Afghanistan, teacher, and future doctor.  
+        I enjoy learning new skills, sharing knowledge, and building creative projects.  
+        Welcome to my Portfolio, a place where you can explore my journey.
+      </p>
+      <a href="https://docs.google.com/document/d/1FhRhn6b0Yz_3-Asdv3tBYoPDwiHBGJWP/edit?usp=drive_link&ouid=103292111173232532245&rtpof=true&sd=true" class="btn">Download CV</a>
+      <div class="socials">
+        <a href="#"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+    <img src="https://i.postimg.cc/9QYcrgBc/IMG-20231211-122642-264.jpg" alt="157c7226-fa57-4946-9fb3-403a8013d16f.jpg">
+    <div class="whip-circle"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am 16 years old and currently studying at the American University of Afghanistan.  
+      My dream is to become a doctor, inspired by my love for helping others and curiosity about science.  
+      Alongside my studies, I dedicate my time to teach English to village girls for free, empowering them with opportunities to learn.  
+   
+      I also have a passion for coding and public speaking, which challenges me to think creatively, and continuouly improve myself.
+      Every day I strive to learn new things, explore my interest, and inspire others around me. I believe that even small actions can make a big difference, and I'm committed to making a positive impact in my community and beyond.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Work & Achievements</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>English Teaching</h3>
+        <p>I work as a volunteer English teacher for girls in villages, teaching has helped me develop patience, creativity, and communication skills, while also giving me the joy of seeing my student grow in confidence and ability.</p>
+      </div>
+      <div class="card">
+        <h3>Academic Success</h3>
+        <p>I have achieved strong academic results throughout my studies, reflecting my dedication, discipline, and love for learning. I have consistently excelled in my University and projects, demonstrating my ability to handle challenging subjects and achieve excellence.</p>
+      </div>
+      <div class="card">
+        <h3>Public Speaking</h3>
+        <p>I have developed excellent public speaking skills through presentations and projects. I successfully presented my civic engagement project on social media, receiving appreciation from my classmates and professors.</p>
+      </div>
+      <div class="card">
+        <h3>Programming Skills</h3>
+        <p>I have mastered multiple programming languages in computer science, which allows me to create complex projects and solve problems efficiently. My experience gives me a strong foundation to develop applications and innovate in technology.</p>
+      </div>
+      <div class="card">
+        <h3>Languages</h3>
+        <p>I am passionate about languages and continue to improve my English and German. Learning languages allows me to connect with different cultures and express myself effectively, currently studying English and German.</p>
+      </div>
+      <div class="card">
+        <h3>Design Experience</h3>
+        <p>I have a creative eye for art and design and enjoy creating projects that combine functionality and aesthetics. Currently, I am working as a designer, where I apply my skills to bring ideas to life visually.</p>
+      </div>
+      <div class="card">
+        <h3>Future Goals</h3>
+        <p>My future goals include continuing my education, pursuing medicine, advancing in technology, and making a positive impact throughout the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xeozbwkl" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Portfolio | Designed with 💚 by Aqila Mohammadi</p>
+  </footer>
+
+  <!-- Typed.js script -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".typing", {
+      strings: ["Blogger", "Project Manager", "full-stuck Developer", "Designer", "Writer", "leader"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
+
 </body>
-</html>
+          </html>
